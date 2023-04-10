@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>forms_app_page</title>
+    </head>
+    <body>
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" name="firstname">
+            <input type="text" name="lastname">
+            <button type="submit">Upload</button>
+        </form>
+    </body>
+</html>
