@@ -5,9 +5,11 @@
     <body>
         <form method="POST">
             {% csrf_token %}
-            <input type="text" name="firstname">
-            <input type="text" name="lastname">
-            <button type="submit">Upload</button>
+            <h1>Welcome to Employee adding Portal</h1>
+            <p>Firstname</p><input type="text" name="firstname"><br>
+            <p>Lastname</p><input type="text" name="lastname"><br>
+            <br>
+            <button type="submit">Upload</button><br>
         </form>
     </body>
 </html>
