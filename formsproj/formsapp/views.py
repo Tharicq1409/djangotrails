@@ -8,4 +8,5 @@ def index(request):
             emp_var.first_name = request.POST.get('firstname')
             emp_var.last_name = request.POST.get('lastname')
             emp_var.save()
+        return render(request,'success.html',{})
     return render(request,'index.html',{})
