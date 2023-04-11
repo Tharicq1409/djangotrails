@@ -4,7 +4,7 @@
     </head>
     <body>
         <form method="POST">
-            {% csrf_token %}
+            {% csrf_token %} <!--For Security Purpose CSRF Token is Added-->
             <h1>Welcome to Employee adding Portal</h1>
             <p>Firstname</p><input type="text" name="firstname"><br>
             <p>Lastname</p><input type="text" name="lastname"><br>
